@@ -13,7 +13,7 @@ RUN apk -U upgrade && \
         && \
     pip --no-cache-dir install --upgrade setuptools && \
     pip --no-cache-dir install --upgrade pyopenssl cheetah requirements && \
-    git clone --depth 1 https://github.com/SickRage/SickRage.git /sickrage && \
+    git clone --depth 1 https://github.com/junalmeida/Sick-Beard.git /sickbeard && \
     apk del make gcc g++ python-dev && \
     rm -rf /tmp && \
     rm -rf /var/cache/apk/*
